@@ -1,1 +1,60 @@
+Day 1 – Cybersecurity 100-Day Challenge
+Date: 2025-08-17
 
+Concepts Explored
+CIA Triad
+Security Models
+
+What I Learned
+CIA Triad:
+
+Confidentiality: Protects sensitive data so that only authorized users can access it.
+
+Implementation: Encryption, access control, 2-factor authentication.
+
+Examples: Hospital patient records, user personal data.
+
+Integrity: Keeps data accurate and unchanged throughout its lifecycle.
+
+Implementation: Hashing, digital signatures, certificates.
+
+Availability: Ensures systems and data are accessible even during minor faults.
+
+Implementation: Redundancy, fault tolerance, patching.
+
+Takeaway: Every system that communicates must uphold the CIA triad to maintain security and usability.
+
+Security Models:
+A security model is a formal framework that defines the rules, policies, and procedures for protecting confidentiality, integrity, and availability (CIA) within a system.
+
+Bell-LaPadula Model:
+
+Focuses on confidentiality (multi-level security, e.g., military hierarchies).
+
+Rules:
+
+Simple Security Property: No read up (can’t read higher classification).
+
+Star ( ) Property:* No write down (can’t leak to lower classification).
+
+Biba Model:
+
+Focuses on integrity (protects data from unauthorized modification).
+
+Rules:
+
+Simple Integrity Property: No read down (can’t read lower integrity).
+
+Star ( ) Integrity Property:* No write up (can’t contaminate higher integrity).
+
+Clark-Wilson Model:
+
+Also aims at integrity, separating constrained and unconstrained data items.
+
+Important for systems where certain sensitive data must only be modified through proper, controlled procedures (e.g., banking transactions).
+
+Networking Concepts Previewed:
+OSI Model, MAC addresses, IPs, DNS – the fundamental building blocks of network security.
+
+Reflection:
+Starting strong and feeling motivated. Today I see how foundational these concepts are for building trustworthy systems, from hospitals to military, and how they are implemented in real-world controls.
