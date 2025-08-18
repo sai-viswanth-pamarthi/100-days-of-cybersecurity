@@ -1,0 +1,45 @@
+Day 2 – Cybersecurity 100-Day Challenge
+Date: 2025-08-18
+Name: Sai
+
+Topics Explored
+OSI Model (7 layers)
+
+Networking Basics: MAC address, IP address, DNS
+
+1. OSI Model – Summary and Observations
+The OSI Model is a 7-layer conceptual framework that standardizes the functions of a telecommunication or computing system. Each layer has a specific role—together, they help computers communicate on a network.
+
+The 7 Layers & Real-World Examples
+Layer	Example Protocols	What It Does	Analogy
+1. Physical	Ethernet, Wi-Fi	Physical cables/waves, sends bits	The wire/postman
+2. Data Link	MAC Address, ARP	Node-to-node error detection, frames	Sender address
+3. Network	IP, ICMP	Routing packets across networks	Destination city
+4. Transport	TCP, UDP	Reliable delivery, ports	Delivery trucks
+5. Session	NetBIOS, RPC	Session management between apps	Ongoing call
+6. Presentation	SSL, TLS	Data formatting, encryption, translation	Translation
+7. Application	HTTP, DNS, SMTP	User-interacting protocols, web/email	The message itself
+Key Point: When you load a website, your request travels “down” these layers (on your PC) and “up” the stack (on the server).
+
+2. Key Networking Concepts
+MAC Address
+A hardware identifier unique to each network interface (like your computer’s network card).
+
+Used on the local network for device identification (Layer 2).
+
+IP Address
+A logical address assigned to each device on a network.
+
+Used for routing packets across different networks (Layer 3).
+
+DNS (Domain Name System)
+Converts human-friendly domain names (like google.com) to IP addresses (like 142.250.68.14).
+
+Vital for usability and security because attacks like DNS poisoning can redirect traffic.
+
+3. Hands-on Practice (Commands & Output)
+Commands Used:
+
+bash
+ifconfig          # Shows network interfaces, MAC/IP addresses
+nslookup google.com   # Finds the IP(s) for google.com
