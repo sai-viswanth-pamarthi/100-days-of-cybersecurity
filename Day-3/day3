@@ -1,0 +1,31 @@
+Day 3 – Cybersecurity 100-Day Challenge
+Date: 2025-08-20
+
+Topics Explored
+TCP/IP Model vs. OSI Model
+
+Wireshark Basics & Packet Analysis
+
+What I Learned
+TCP/IP Model:
+Learned how the 4-layer TCP/IP model (Application, Transport, Internet, Link) maps to the OSI model and serves as the basis for real-world networking. Saw how protocols like HTTP, TCP/UDP, and IP work together to enable internet communication.
+
+Wireshark Hands-On:
+Captured live network traffic using Wireshark, filtered TCP/UDP/QUIC packets, and explored how packets are structured.
+Observed:
+
+TCP 3-way handshake (SYN, SYN-ACK, ACK)
+
+TLS handshake (“Client Hello”)
+
+QUIC traffic (modern web, used by Google)
+
+Retransmissions and duplicate ACKs (how real networks handle loss)
+
+Key Takeaways:
+
+Packet analysis is essential for detecting suspicious activity, understanding normal behavior, and strengthening cybersecurity.
+
+Tools like Wireshark make network traffic transparent—helpful for both defenders and attackers.
+
+Realized that deep visibility into packets is the foundation for intrusion detection and forensic analysis.
