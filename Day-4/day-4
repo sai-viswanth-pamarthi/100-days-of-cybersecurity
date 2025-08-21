@@ -1,0 +1,30 @@
+Day 4 – Cybersecurity 100-Day Challenge
+Date: 2025-08-20
+
+Topics Covered
+Advanced Wireshark Filtering Techniques
+
+Attack Pattern Recognition: ARP Spoofing, SYN Floods, and Port Scans
+
+Using Nmap to Simulate Reconnaissance Attacks
+
+Practical Capture and Analysis of Network Scans and Attacks
+
+What I Did
+Explored and applied advanced display filters in Wireshark to isolate specific protocols and identify suspicious network activity.
+
+Captured network traffic while browsing and during simulated Nmap scans in a controlled lab environment.
+
+Detected and analyzed attack signatures such as ARP spoofing attempts and SYN scan patterns.
+
+Documented findings through screenshots and detailed explanations of each attack pattern’s significance and detection method.
+
+Key Learnings
+Gained skills in using Wireshark filters to focus on relevant network traffic for security analysis.
+
+Learned how common reconnaissance and network attacks manifest in packet data.
+
+Understood how offensive tools like Nmap create identifiable patterns useful for defensive monitoring.
+
+Strengthened ability to document and communicate security findings clearly with evidence.
+
