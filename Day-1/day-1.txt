@@ -1,5 +1,6 @@
 Day 1 – Cybersecurity 100-Day Challenge
-Date: 2025-08-05
+Date: 2025-08-17
+
 
 Personal Note:
 This is Sai. I’m feeling confident as I start the cybersecurity 100-day challenge!
@@ -60,4 +61,5 @@ Networking Concepts Previewed:
 OSI Model, MAC addresses, IPs, DNS – the fundamental building blocks of network security.
 
 Reflection:
+
 Starting strong and feeling motivated. Today I see how foundational these concepts are for building trustworthy systems, from hospitals to military, and how they are implemented in real-world controls.
